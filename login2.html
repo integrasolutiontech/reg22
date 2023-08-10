@@ -76,8 +76,10 @@
                         <div class="tgmobile__menu">
                             <nav class="tgmobile__menu-box">
                                 <div class="close-btn"><i class="flaticon-swords-in-cross-arrangement"></i></div>
-                                <div class="nav-logo">
-                                    <a href="index-2.html"><img src="logo.png" alt="Logo"></a>
+ <div class="logo">
+                                    <img src="logo.png" alt="Logo" style="
+                                    margin-top: -17px;
+                                ">
                                 </div>
                                 <div class="tgmobile__search">
                                     <form action="#">
@@ -146,7 +148,7 @@
             <div class="offCanvas__body">
                 <div class="offCanvas__top">
                     <div class="offCanvas__logo logo">
-                        <a href="index-2.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                        <a href="index-2.html"><img src="logo.png" alt="Logo"></a>
                     </div>
                     <div class="offCanvas__toggle">
                         <i class="flaticon-swords-in-cross-arrangement"></i>
@@ -229,9 +231,8 @@
     <script>
         // قم بإنشاء مصفوفة لتخزين المستخدمين وكلمات المرور
         var users = [
-            { username: "user1", password: "pass1" },
-            { username: "user2", password: "pass2" },
-            { username: "user3", password: "pass3" }
+            { username: "ZOZ", password: "pass1" },
+
         ];
     
         // استهلك النموذج واحتفظ بعناصر النموذج في متغيرات
@@ -257,7 +258,7 @@
     
             // قم بتوجيه المستخدم إلى index.html إذا تم تسجيل الدخول بنجاح ، وإلا قم بعرض رسالة خطأ
             if (isLoggedIn) {
-                window.location.href = "index.html";
+                window.location.href = "reg1.html";
             } else {
                 alert("اسم المستخدم أو كلمة المرور غير صحيحة");
             }
